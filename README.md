@@ -1,3 +1,4 @@
 # simple-blog
 fifth repo
-hi this is my first php site please help me finfing my mistake, i will be very thankful
+A simple blog buit in procedural php and MySql.
+It is an open source project.
