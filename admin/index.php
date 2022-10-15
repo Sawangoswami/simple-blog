@@ -2,7 +2,7 @@
 session_start();
     
  if(isset($_SESSION['username'])){
-      header("Location: " . $_SERVER['HTTP_HOST'] . "/admin/post.php");
+      header("Location: /post.php");
   }
     
 ?>
