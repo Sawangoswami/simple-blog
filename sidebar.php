@@ -17,7 +17,7 @@
         <h4>Recent Posts</h4>
         <?php 
         include 'config.php';
-        var_dump($conn);
+        echo $conn;
         $limit = 3;
         $offset = 0;
        $sql = "SELECT * FROM post 
