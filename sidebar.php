@@ -23,7 +23,7 @@
        LEFT JOIN category ON post.category = category.category_id
        LEFT JOIN user ON post.author = user.user_id
        ORDER BY Post.post_id DESC LIMIT  {$offset}, {$limit}";
-       $result = mysqli_query($conn, $sql)or die("query failed");
+       $result = mysqli_query($conn, $sql) or die("query failed");
        if(mysqli_num_rows($result) > 0){
        
        while($row = mysqli_fetch_assoc($result))  {?>
