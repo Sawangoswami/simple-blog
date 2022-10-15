@@ -56,7 +56,7 @@ session_start();
                                     $_SESSION['username'] = $row['username'];
                                     $_SESSION['user_id'] = $row['user_id'];
                                     $_SESSION['user_role'] = $row['role'];
-                                    header("Location: " . $_SERVER['HTTP_HOST'] . "/admin/post.php");
+                                    header("Location: /admin/post.php");
                                 }
                             }else{echo "<div class = 'alert alert-danger'> Username Or Password is Wrong </div>";
                              }
