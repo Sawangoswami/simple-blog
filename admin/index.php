@@ -2,7 +2,7 @@
 session_start();
     
  if(isset($_SESSION['username'])){
-      header("Location: /post.php");
+      header("Location: /admin/post.php");
   }
     
 ?>
