@@ -2,7 +2,7 @@
 session_start();
     
  if(isset($_SESSION['username'])){
-      header("Location: " . $_SERVER['HTTP_HOST'] . "/blog-site/admin/post.php");
+      header("Location: " . $_SERVER['HTTP_HOST'] . "/admin/post.php");
   }
     
 ?>
@@ -56,7 +56,7 @@ session_start();
                                     $_SESSION['username'] = $row['username'];
                                     $_SESSION['user_id'] = $row['user_id'];
                                     $_SESSION['user_role'] = $row['role'];
-                                    header("Location: http://localhost/blog-site/admin/post.php");
+                                    header("Location: " . $_SERVER['HTTP_HOST'] . "/admin/post.php");
                                 }
                             }else{echo "<div class = 'alert alert-danger'> Username Or Password is Wrong </div>";
                              }
