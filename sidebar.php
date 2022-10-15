@@ -19,7 +19,7 @@
         error_reporting(E_ALL);
         ini_set('display_errors', '1');
         echo 786;
-        include 'config.php';
+       //include 'config.php';
         echo $conn, 123;
         $limit = 3;
         $offset = 0;
