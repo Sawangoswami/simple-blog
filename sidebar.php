@@ -16,6 +16,7 @@
     <div class="recent-post-container">
         <h4>Recent Posts</h4>
         <?php 
+        echo 786;
         include 'config.php';
         echo $conn, 123;
         $limit = 3;
