@@ -19,7 +19,8 @@
         error_reporting(E_ALL);
         ini_set('display_errors', '1');
         echo 787;
-       include 'config.php';
+       // include 'config.php';
+        $conn =  mysqli_connect("localhost", "u586058589_skool", "Sawangoswami@9", "u586058589_skool") or die("Connection Failed:".mysqli_connecton_error()) ;
         var_dump($conn, 123);
         $limit = 3;
         $offset = 0;
