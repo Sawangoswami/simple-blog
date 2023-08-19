@@ -42,7 +42,7 @@
         <div class="row">
             <!-- LOGO -->
             <div class=" col-md-offset-4 col-md-4">
-                <h1 id="logo">My Blog</h1>
+                <h1 id="logo"> Blog</h1>
             </div>
             <!-- /LOGO -->
         </div>
