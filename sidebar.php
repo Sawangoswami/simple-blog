@@ -18,10 +18,7 @@
         <?php 
         error_reporting(E_ALL);
         ini_set('display_errors', '1');
-        echo 787;
        //include 'config.php';
-       
-        var_dump($conn, 123);
         $limit = 3;
         $offset = 0;
        $sql = "SELECT * FROM post 
