@@ -14,7 +14,7 @@
     <!-- /search box -->
     <!-- recent posts box -->
     <div class="recent-post-container">
-        <h4>Recent Posts</h4>
+        <h4>RECENT POST</h4>
         <?php 
         error_reporting(E_ALL);
         ini_set('display_errors', '1');
