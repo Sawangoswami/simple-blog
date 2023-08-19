@@ -9,7 +9,7 @@
                 <h2 class="page-heading">Home</h2>
                 <!-- post-container -->
                 <div class="post-container">
-                     <?php  include "config.php";
+                     <?php  include_once "config.php";
 
                         $limit = 3;
                       if(isset($_GET['page'])){
