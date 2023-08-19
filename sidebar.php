@@ -24,10 +24,9 @@
        LEFT JOIN user ON post.author = user.user_id
        ORDER BY Post.post_id DESC LIMIT  {$offset}, {$limit}";
        $result = mysqli_query($conn, $sql);
-       echo $limit;
+       echo $sql;
        die("query faile");
        if(mysqli_num_rows($result) > 0){
-       
        while($row = mysqli_fetch_assoc($result))  {?>
         <div class="recent-post">
             <a class="post-img" href="single.php?pid=<?php echo $row['post_id']; ?>">
