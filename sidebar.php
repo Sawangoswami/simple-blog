@@ -19,7 +19,7 @@
         include 'config.php';
         $limit = 3;
         $offset = 0;
-        $sql8 = "SELECT * FROM post 
+        $sql = "SELECT * FROM post 
        LEFT JOIN category ON post.category = category.category_id
        LEFT JOIN user ON post.author = user.user_id
        ORDER BY Post.post_id DESC LIMIT  {$offset}, {$limit}";
