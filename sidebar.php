@@ -18,7 +18,7 @@
         <?php 
         error_reporting(E_ALL);
         ini_set('display_errors', '1');
-       //include 'config.php';
+       include'config.php';
         $limit = 3;
         $offset = 0;
        $sql = "SELECT * FROM post 
