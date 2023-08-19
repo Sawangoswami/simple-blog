@@ -19,8 +19,8 @@
         error_reporting(E_ALL);
         ini_set('display_errors', '1');
         echo 787;
-       // include 'config.php';
-        $conn  = mysqli_connect("localhost", "root", "", "blog_site") or die("Connection Failed:".mysqli_connecton_error()) ;
+       //include 'config.php';
+       
         var_dump($conn, 123);
         $limit = 3;
         $offset = 0;
