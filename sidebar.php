@@ -24,7 +24,7 @@
        LEFT JOIN user ON post.author = user.user_id
        ORDER BY Post.post_id DESC LIMIT  {$offset}, {$limit}";
        $result = mysqli_query($conn, $sql);
-       echo $sql;
+       echo $conn;
        die("query faile");
        if(mysqli_num_rows($result) > 0){
        while($row = mysqli_fetch_assoc($result))  {?>
