@@ -8,8 +8,7 @@
                         <div class="post-content single-post">
                             <?php 
                             include'config.php'; 
-                            
-                             $sql = "SELECT * FROM post 
+                            $sql = "SELECT * FROM post 
                      LEFT JOIN category ON post.category = category.category_id
                      LEFT JOIN user ON post.author = user.user_id
                      WHERE post_id = {$_GET['pid']}";
